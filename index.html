@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tabbed component</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <div class="section-roadmap">
+            <div class="roadmap-title-wrapper">
+                <h3 class="roadmap-title">My Estate Roadmap</h3>
+                <div class="title-info-icon">
+                    <i class="fa fa-info"></i>
+                </div>
+            </div>
+            <div class="roadmap-list-wrapper">
+                <div class="roadmap-list">
+                    <div class="roadmap-list-item list-item-active">
+                        <div class="list-item-number">1</div>
+                        <div class="list-item-details">
+                            <p class="list-item-title">Estate Task</p>
+                            <p class="list-item-desc">
+                                Complete all estate tasks
+                            </p>
+                        </div>
+                        <div class="list-item-nav">
+                            <div
+                                class="fa fa-chevron-right"
+                                data-task-name="estate-task"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="roadmap-list-item">
+                        <div class="list-item-number">2</div>
+                        <div class="list-item-details">
+                            <p class="list-item-title">Estate Accounting</p>
+                            <p class="list-item-desc">Update all assets</p>
+                        </div>
+                        <div class="list-item-nav">
+                            <div
+                                class="fa fa-chevron-right"
+                                data-task-name="estate-accounting"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="roadmap-list-item">
+                        <div class="list-item-number">3</div>
+                        <div class="list-item-details">
+                            <p class="list-item-title">Estate Details</p>
+                            <p class="list-item-desc">Documents and members</p>
+                        </div>
+                        <div class="list-item-nav">
+                            <div
+                                class="fa fa-chevron-right"
+                                data-task-name="estate-details"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="roadmap-list-item">
+                        <div class="list-item-number">4</div>
+                        <div class="list-item-details">
+                            <p class="list-item-title">Estate Distribution</p>
+                            <p class="list-item-desc">
+                                Distribute assets & pay taxes
+                            </p>
+                        </div>
+                        <div class="list-item-nav">
+                            <div
+                                class="fa fa-chevron-right"
+                                data-task-name="estate-distribution"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="roadmap-list-item">
+                        <div class="list-item-number">5</div>
+                        <div class="list-item-details">
+                            <p class="list-item-title">Cosure</p>
+                            <p class="list-item-desc">
+                                Time to close you estate
+                            </p>
+                        </div>
+                        <div class="list-item-nav">
+                            <div
+                                class="fa fa-chevron-right"
+                                data-task-name="cosure"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-task-list">
+                    <div class="roadmap-task estate-task show">
+                        <div class="task-header">
+                            <h4 class="task-header-title">What to do next?</h4>
+                            <div class="task-cta">
+                                <a href="#">See All Tasks</a>
+                            </div>
+                        </div>
+                        <p class="task-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Ut soluta ad itaque officia dolores eveniet,
+                            repudiandae explicabo, eaque pariatur iusto nostrum
+                            animi. Architecto a sequi hic velit veritatis natus
+                            soluta quaerat cumque assumenda quisquam fuga
+                            necessitatibus neque, dolorem veniam recusandae.
+                        </p>
+                        <div class="task-progress">
+                            <div class="task-progress-copy">
+                                <p>Estate Task Left</p>
+                                <p>100/100</p>
+                            </div>
+                            <div class="task-progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="roadmap-task estate-accounting">
+                        <div class="task-header">
+                            <h4 class="task-header-title">Estate Accounting</h4>
+                            <div class="task-cta">
+                                <a href="#">See All Tasks</a>
+                            </div>
+                        </div>
+                        <p class="task-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Ut soluta ad itaque officia dolores eveniet,
+                            repudiandae explicabo, eaque pariatur iusto nostrum.
+                        </p>
+                        <div class="task-progress">
+                            <div class="task-progress-copy">
+                                <p>Estate Task Left</p>
+                                <p>100/100</p>
+                            </div>
+                            <div class="task-progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="roadmap-task estate-details">
+                        <div class="task-header">
+                            <h4 class="task-header-title">Estate Details</h4>
+                            <div class="task-cta">
+                                <a href="#">See All Tasks</a>
+                            </div>
+                        </div>
+                        <p class="task-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Ut soluta ad itaque officia dolores. Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit.
+                            Ipsum laboriosam magnam officiis eius laudantium
+                            sint!
+                        </p>
+                        <div class="task-progress">
+                            <div class="task-progress-copy">
+                                <p>Estate Task Left</p>
+                                <p>100/100</p>
+                            </div>
+                            <div class="task-progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="roadmap-task estate-distribution">
+                        <div class="task-header">
+                            <h4 class="task-header-title">
+                                Estate Distribution
+                            </h4>
+                            <div class="task-cta">
+                                <a href="#">See All Tasks</a>
+                            </div>
+                        </div>
+                        <p class="task-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Ut soluta ad itaque officia dolores eveniet,
+                            repudiandae explicabo, eaque pariatur iusto nostrum
+                            animi. Architecto a sequi hic velit veritatis. Lorem
+                            ipsum dolor sit amet consectetur, adipisicing elit.
+                            Voluptate, quae!.
+                        </p>
+                        <div class="task-progress">
+                            <div class="task-progress-copy">
+                                <p>Estate Task Left</p>
+                                <p>100/100</p>
+                            </div>
+                            <div class="task-progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="roadmap-task cosure">
+                        <div class="task-header">
+                            <h4 class="task-header-title">Cosure</h4>
+                            <div class="task-cta">
+                                <a href="#">See All Tasks</a>
+                            </div>
+                        </div>
+                        <p class="task-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Ut soluta ad itaque officia dolores eveniet,
+                            repudiandae explicabo, eaque pariatur iusto.
+                        </p>
+                        <div class="task-progress">
+                            <div class="task-progress-copy">
+                                <p>Estate Task Left</p>
+                                <p>100/100</p>
+                            </div>
+                            <div class="task-progress-bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
